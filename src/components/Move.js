@@ -1,5 +1,5 @@
-import { React, useState, useEffect } from "react";
-import { Route, Link, useParams } from "react-router-dom";
+import { React, useState } from "react";
+import { Route, useParams } from "react-router-dom";
 
 // components
 import Loading from "./Loading";

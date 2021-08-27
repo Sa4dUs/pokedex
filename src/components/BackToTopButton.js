@@ -5,6 +5,7 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 const BackToTopButton = () => {
   let button;
   useEffect(() => {
+     // eslint-disable-next-line react-hooks/exhaustive-deps
      button = document.getElementById("btn-back-to-top");
   },[]);
 
